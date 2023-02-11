@@ -1,0 +1,27 @@
+.switch-form__custom-radio {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: 1.17;
+  position: relative;
+}
+
+.switch-form__custom-radio::after {
+  content: '';
+  /* как я понял не требовалось делать этот элемент через радио кнопки а можно было просто текстом. потом хочу реализовать замену текста на странице в зависимости от выбора языка */
+  width: 0%;
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  transition: .2s ease-in;
+}
+
+@media (max-width: 767px) {
+  .switch-form__custom-radio {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}

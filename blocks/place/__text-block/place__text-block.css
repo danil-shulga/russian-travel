@@ -1,0 +1,9 @@
+.place__text-block {
+
+}
+
+@media (max-width: 767px) {
+  .place__text-block {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer__link {
+  margin: 0 19px 0 0;
+  text-decoration: none;
+
+  font-size: 16px;
+  line-height: 1.1;
+  vertical-align: baseline;
+  color: #fff;
+}
+.footer__link:last-of-type {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer__link {
+    margin: 0 0 32px 0;
+    font-size: 24px;
+    line-height: 1;
+  }
+}

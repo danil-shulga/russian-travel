@@ -1,0 +1,4 @@
+.switch-form__real-radio:checked + .switch-form__custom-radio::after {
+  width: 100%;
+  opacity: 1;
+}

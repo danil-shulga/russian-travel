@@ -1,0 +1,9 @@
+.lead__img-road {
+  width: 95.4%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -87%);
+  z-index: 2;
+}

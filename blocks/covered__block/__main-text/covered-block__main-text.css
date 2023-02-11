@@ -1,0 +1,16 @@
+.covered-block__main-text {
+  margin: 32px auto 0;
+  min-width: 288px;
+  max-width: 360px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+@media (max-width: 767px) {
+  .covered-block__main-text {
+    margin: 16px auto 0;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

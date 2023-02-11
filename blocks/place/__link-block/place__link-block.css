@@ -1,0 +1,10 @@
+.place__link-block {
+  align-self: end;
+}
+
+@media (max-width: 767px) {
+  .place__link-block {
+    padding: 0 16px;
+    align-self: stretch;
+  }
+}

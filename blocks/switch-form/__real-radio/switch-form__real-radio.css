@@ -1,0 +1,6 @@
+.switch-form__real-radio {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+}

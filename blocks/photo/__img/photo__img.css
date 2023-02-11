@@ -1,0 +1,6 @@
+.photo_img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 100%;
+}

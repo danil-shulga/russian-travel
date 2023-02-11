@@ -1,0 +1,15 @@
+.cover__wrapper {
+  margin: 92px auto 0;
+}
+
+@media (max-width: 1023px) {
+  .cover__wrapper {
+    margin: 90px auto 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__wrapper {
+    margin: 66px auto 0;
+  }
+}

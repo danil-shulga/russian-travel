@@ -1,0 +1,22 @@
+.lead__img-description {
+  max-width: 160px;
+  margin: 3px 0 0;
+  /* margin: 8px 0 0; */
+
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media (max-width:1023px) {
+  .lead__img-description {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__img-description {
+    padding-left: 16px;
+  }
+}
