@@ -13,18 +13,18 @@
   <div class="page">
 
     <header class="header header__wrapper">
-      <img class="header__logo" src="images/icon/logo.svg"></img>
+      <img class="header__logo" src="images/icon/logo.svg" alt="лого 'Россия'">
 
       <form class="switch-form header__switch-form">
 
         <label class="switch-form__label">
           <input type="radio" name="lang-switcher" class="switch-form__real-radio" value="ru" checked>
-          <span class="switch-form__custom-radio switch-form__custom-radio_first">ru</span>
+          <span class="hover-link switch-form__custom-radio switch-form__custom-radio">ru</span>
         </label>
 
         <label class="header__label">
           <input type="radio" name="lang-switcher" class="switch-form__real-radio" value="en">
-          <span class="switch-form__custom-radio switch-form__custom-radio_second">en</span>
+          <span class="hover-link switch-form__custom-radio switch-form__custom-radio_last">en</span>
         </label>
 
       </form>
@@ -32,10 +32,11 @@
 
     <main>
       <section class="lead lead__wrapper">
-        <h1 class="lead__title">Путешествия по&nbspРоссии</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__images">
           <img class="lead__img" src="images/img/header_img_for_1280px.png" alt="фото боковой полки в плацкарте">
+          <!-- да можно было экспортировать одним изображением но я хочу чтобы это были 2 разных чтобы можно было заменить одно из 2х изображений -->
           <img class="lead__img-road" src="images/icon/road.svg" alt="путь">
           <figcaption class="lead__img-description">ваша полка — верхняя</figcaption>
         </figure>
@@ -51,7 +52,7 @@
             Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20
             тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
             отпуска.</blockquote>
-          <ul class="intro__list">
+          <ul class="intro__list list">
             <li class="intro__list-item">
               <span class="text_weight_l">Часовых поясов </span>11
             </li>
@@ -74,18 +75,18 @@
       <section aria-label="фото России" class="photo photo__wrapper">
         <figure class="photo__grid">
 
-          <img class="photo_img" src="./images/img/train.png" alt="вид из окна поезда">
-          <img class="photo_img" src="./images/img/atharva-tulsi-472908-unsplash.png" alt="вид на горы сверху">
-          <img class="photo_img" src="./images/img/tuman.jpg" alt="туманное поле с стогами сена">
-          <img class="photo_img" src="./images/img/sochi.jpg" alt="вид на туманные лес сверху">
-          <img class="photo_img" src="./images/img/arisa-chattasa-559627-unsplash.jpg" alt="авто на льду байкала">
-          <img class="photo_img" src="./images/img/baikal.jpg" alt="пляж">
-          <img class="photo_img" src="./images/img/elbrus.jpg" alt="вид на горы с земли">
-          <img class="photo_img" src="./images/img/stanislav-kondratiev.jpg" alt="знак пешеходного перехода">
-          <img class="photo_img" src="./images/img/kamchatka.jpg" alt="горы в тумане">
-          <img class="photo_img" src="./images/img/kamchatka2.jpg" alt="вид на горы">
-          <img class="photo_img" src="./images/img/baikal2.jpg" alt="горы у берега">
-          <img class="photo_img" src="./images/img/ergaki.jpg" alt="горы в тумане">
+          <img class="photo_img" src="./images/img/photo-grid-train.jpg" alt="вид из окна поезда">
+          <img class="photo_img" src="./images/img/photo-grid-atharva-tulsi.jpg" alt="вид на горы сверху">
+          <img class="photo_img" src="./images/img/photo-grid-tuman.jpg" alt="туманное поле с стогами сена">
+          <img class="photo_img" src="./images/img/photo-grid-sochi.jpg" alt="вид на туманные лес сверху">
+          <img class="photo_img" src="./images/img/photo-grid-arisa.jpg" alt="авто на льду байкала">
+          <img class="photo_img" src="./images/img/photo-grid-baikal.jpg" alt="пляж">
+          <img class="photo_img" src="./images/img/photo-grid-elbrus.jpg" alt="вид на горы с земли">
+          <img class="photo_img" src="./images/img/photo-grid-kondratiev.jpg" alt="знак пешеходного перехода">
+          <img class="photo_img" src="./images/img/photo-grid-kamchatka-1.jpg" alt="горы в тумане">
+          <img class="photo_img" src="./images/img/photo-grid-kamchatka-2.jpg" alt="вид на горы">
+          <img class="photo_img" src="./images/img/photo-grid-baikal-2.jpg" alt="горы у берега">
+          <img class="photo_img" src="./images/img/photo-grid-ergaki.jpg" alt="горы в тумане">
 
         </figure>
       </section>
@@ -97,7 +98,7 @@
             <p class="place__url-text">url</p>
             <a href="http://park-kosa.ru" target="_blank" class="place__link hover-link">park-kosa.ru</a>
           </div>
-          <img src="./images/img/park-kosa.jpg" alt="мелководье" class="place__img">
+          <img src="./images/img/place-kosa.jpg" alt="мелководье" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -116,7 +117,7 @@
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
               class="place__link hover-link">National Geographic</a>
           </div>
-          <img src="./images/img/kolsky.jpg" alt="заснеженные горы" class="place__img">
+          <img src="./images/img/place-kolsky.jpg" alt="заснеженные горы" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг
               — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -134,7 +135,7 @@
             <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank"
               class="place__link hover-link">YouTube</a>
           </div>
-          <img src="./images/img/altay.jpg" alt="" class="place__img">
+          <img src="./images/img/place-altai.jpg" alt="" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Алтай — одно из красивейших мест в России. <br>В первую очередь из-за гор: если ехать
               вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле
@@ -152,7 +153,7 @@
             <a href="https://vk.com/baikalmile" target="_blank"
               class="place__link hover-link">https://vk.com/baikalmile</a>
           </div>
-          <img src="./images/img/winter_baikal.jpg" alt="" class="place__img">
+          <img src="./images/img/place-winter-baikal.jpg" alt="" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый
               большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -169,7 +170,7 @@
             <p class="place__url-text">url</p>
             <a href="http://vodlozero.ru/" target="_blank" class="place__link hover-link">http://vodlozero.ru/</a>
           </div>
-          <img src="./images/img/kareliya.jpg" alt="" class="place__img">
+          <img src="./images/img/place-karelia.jpg" alt="" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
               не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков
@@ -183,11 +184,12 @@
 
       <section class="cover cover__wrapper">
 
-        <a class="covered-block cover__covered-block" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-          <img src="./images/img/__background.jpg" alt="ЖД станция" class="covered-block__img hover-img">
+        <a class="covered-block cover__covered-block" target="_blank"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <img src="./images/img/cover-trains.jpg" alt="ЖД станция" class="covered-block__img hover-img">
           <div class="covered-block__overlay"></div>
           <div class="covered-block__text-block">
-            <h2 class="covered-block__title">До Байкала «на&nbspсобаках»</h2>
+            <h2 class="covered-block__title">До Байкала «на&nbsp;собаках»</h2>
             <p class="covered-block__main-text">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
               на электричках.</p>
           </div>
@@ -197,11 +199,23 @@
 
     <footer class="footer footer__wrapper">
       <nav class="footer__nav">
-        <a class="footer__link hover-link" target="_blank" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link hover-link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link hover-link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link hover-link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link hover-link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+        <ul class="footer__list list">
+          <li class="footer__list-item">
+            <a class="footer__link hover-link" target="_blank" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link hover-link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link hover-link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link hover-link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link hover-link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+          </li>
+        </ul>
       </nav>
       <span class="footer__author">© 2022. Данил Шульга</span>
 

@@ -1,11 +1,13 @@
 /* VENDOR */
 @import url(../vendor/normalize.css);
-    /* fonts */
+/* fonts */
 @import url(../vendor/font__inter.css);
 /* BODY */
 @import url(../blocks/body/body.css);
 /* PAGE */
 @import url(../blocks/page/page.css);
+/* LIST */
+@import url(../blocks/list/list.css);
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__wrapper/header__wrapper.css);
@@ -15,7 +17,7 @@
 @import url(../blocks/switch-form/__real-radio/switch-form__real-radio.css);
 @import url(../blocks/switch-form/__real-radio/_checked/switch-form__real-radio_checked.css);
 @import url(../blocks/switch-form/__custom-radio/switch-form__custom-radio.css);
-@import url(../blocks/switch-form/__custom-radio/_first/switch-form__custom-radio_first.css);
+@import url(../blocks/switch-form/__custom-radio/_last/switch-form__custom-radio_last.css);
 /* LEAD */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__wrapper/lead__wrapper.css);
@@ -70,5 +72,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
