@@ -1,6 +1,7 @@
 .photo__img {
-  object-fit: cover;
-  object-position: center;
+  display: block;
+  object-fit: contain;
+  object-position: 50% 50%;
   overflow: hidden;
   width: 100%;
 }
