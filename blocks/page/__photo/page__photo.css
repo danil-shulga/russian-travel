@@ -1,15 +1,15 @@
-.photo_position {
+.page__photo {
   margin: 92px auto 0;
 }
 
 @media (max-width: 1023px) {
-  .photo_position {
+  .page__photo {
     margin: 88px auto 0;
   }
 }
 
 @media (max-width: 767px) {
-  .photo_position {
+  .page__photo {
     margin: 64px auto 0;
   }
 }

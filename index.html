@@ -12,7 +12,7 @@
 <body class="body">
   <div class="page">
 
-    <header class="header header_position">
+    <header class="page__header header header_position">
       <img class="header__logo" src="images/icon/logo.svg" alt="лого 'Россия'">
 
       <form class="switch-form header__switch-form">
@@ -31,18 +31,16 @@
     </header>
 
     <main>
-      <section class="lead lead_position">
+      <section class="page__lead lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__images">
-          <img class="lead__img" src="images/img/header_img_for_1280px.png" alt="фото боковой полки в плацкарте">
-          <!-- да можно было экспортировать одним изображением но я хочу чтобы это были 2 разных чтобы можно было заменить одно из 2х изображений -->
-          <img class="lead__img-road" src="images/icon/road.svg" alt="путь">
+          <img class="lead__img" src="images/img/lead-polka.jpg" alt="фото боковой полки в плацкарте">
           <figcaption class="lead__img-description">ваша полка — верхняя</figcaption>
         </figure>
       </section>
 
-      <section class="intro intro_position">
+      <section class="page__intro intro">
         <div class="intro__text-block">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <blockquote class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
@@ -77,7 +75,7 @@
         </div>
       </section>
 
-      <section aria-label="фото России" class="photo photo_position">
+      <section class="page__photo photo" aria-label="фото России">
         <figure class="photo__grid">
 
           <img class="photo__img" src="./images/img/photo-grid-train.jpg" alt="вид из окна поезда">
@@ -96,8 +94,8 @@
         </figure>
       </section>
 
-      <section aria-label="места которые стоит посетить" class="places places_position">
-        <figure class="place places__place">
+      <section class="page__places places" aria-label="места которые стоит посетить">
+        <figure class="places__place place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
@@ -115,7 +113,7 @@
           </div>
         </figure>
 
-        <figure class="place places__place">
+        <figure class="places__place place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
@@ -133,7 +131,7 @@
           </div>
         </figure>
 
-        <figure class="place places__place">
+        <figure class="places__place place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
@@ -151,7 +149,7 @@
           </div>
         </figure>
 
-        <figure class="place places__place">
+        <figure class="places__place place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
@@ -169,7 +167,7 @@
           </div>
         </figure>
 
-        <figure class="place places__place">
+        <figure class="places__place place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
@@ -187,7 +185,7 @@
         </figure>
       </section>
 
-      <section class="cover cover_position">
+      <section class="page__cover cover">
 
         <a class="covered-block cover__covered-block" target="_blank"
           href="https://stampsy.com/na-elektrichkakh-do-baikala">
@@ -202,7 +200,7 @@
       </section>
     </main>
 
-    <footer class="footer footer_position">
+    <footer class="page__footer footer">
       <nav class="footer__nav">
         <ul class="footer__list list">
           <li class="footer__list-item">
