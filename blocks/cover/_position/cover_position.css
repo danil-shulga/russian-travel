@@ -1,15 +1,15 @@
-.cover__wrapper {
+.cover_position {
   margin: 92px auto 0;
 }
 
 @media (max-width: 1023px) {
-  .cover__wrapper {
+  .cover_position {
     margin: 90px auto 0;
   }
 }
 
 @media (max-width: 767px) {
-  .cover__wrapper {
+  .cover_position {
     margin: 66px auto 0;
   }
 }
