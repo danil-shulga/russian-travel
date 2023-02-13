@@ -60,14 +60,10 @@
 @import url(../blocks/place/__text/place__text.css);
 /* COVER */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__covered-block/cover__covered-block.css);
-/* COVERED-BLOCK */
-@import url(../blocks/covered__block/covered-block.css);
-@import url(../blocks/covered__block/__img/covered-block__img.css);
-@import url(../blocks/covered__block/__overlay/covered-block__overlay.css);
-@import url(../blocks/covered__block/__text-block/covered-block__text-block.css);
-@import url(../blocks/covered__block/__title/covered-block__title.css);
-@import url(../blocks/covered__block/__main-text/covered-block__main-text.css);
+/* CARD */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__description/card__description.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav/footer__nav.css);

@@ -1,4 +1,4 @@
-.covered-block__title {
+.card__title {
   margin: 0 auto;
   padding: 0;
   font-size: 72px;
@@ -10,7 +10,8 @@
 }
 
 @media (max-width: 767px) {
-  .covered-block__title {
+  .card__title {
+    max-width: 290px;
     font-size: 32px;
     line-height: 1.1;
   }
