@@ -11,11 +11,19 @@
 
 <body class="body">
   <div class="page">
-
     <header class="page__header header">
       <img class="header__logo" src="images/icon/logo.svg" alt="лого 'Россия'">
-
-      <form class="switch-form header__switch-form">
+      <ul class="header__list list">
+        <li class="header__list-item header__list-item_status_active">
+          <a class="header__link hover-link" href="#">ru</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__link hover-link" href="#">en</a>
+        </li>
+      </ul>
+      <!-- как я понял по заданию нужно сделать ссылкой чтобы мы поняли как работает наследование свойств и порядок подключения классов, в данном случае text-decoration. нужно у ссылок убрать подчеркивание но активную оставить с подчеркиванием -->
+      <!-- урок усвоен по этому прошу не придираться к закомменченной форме снизу (: , мне нравится такая реализация смены языка и я хочу ее вернуть после зачета -->
+      <!-- <form class="switch-form header__switch-form">
 
         <label class="switch-form__label">
           <input type="radio" name="lang-switcher" class="switch-form__real-radio" value="ru" checked>
@@ -27,9 +35,8 @@
           <span class="hover-link switch-form__custom-radio switch-form__custom-radio_last">en</span>
         </label>
 
-      </form>
+      </form> -->
     </header>
-
     <main>
       <section class="page__lead lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
@@ -39,7 +46,6 @@
           <figcaption class="lead__img-description">ваша полка — верхняя</figcaption>
         </figure>
       </section>
-
       <section class="page__intro intro">
         <div class="intro__text-block">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -74,7 +80,6 @@
           </ul>
         </div>
       </section>
-
       <section class="page__photo photo" aria-label="фото России">
         <figure class="photo__grid">
 
@@ -93,7 +98,6 @@
 
         </figure>
       </section>
-
       <section class="page__places places" aria-label="места которые стоит посетить">
         <figure class="places__place place">
           <h2 class="place__title">Куршская коса</h2>
@@ -184,17 +188,14 @@
           </div>
         </figure>
       </section>
-
       <section class="page__cover cover">
         <a class="cover__card card" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="card__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="card__description">По мотивам учебной темы о Транссибе —&nbsp;путешествие от столицы до Байкала
             на электричках.</p>
-
         </a>
       </section>
     </main>
-
     <footer class="page__footer footer">
       <nav class="footer__nav">
         <ul class="footer__list list">
@@ -216,7 +217,6 @@
         </ul>
       </nav>
       <span class="footer__author">© 2022. Данил Шульга</span>
-
     </footer>
   </div>
 </body>
