@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествие по России</title>
 </head>
@@ -14,8 +13,8 @@
     <header class="page__header header">
       <img class="header__logo" src="images/icon/logo.svg" alt="лого 'Россия'">
       <ul class="header__list list">
-        <li class="header__list-item header__list-item_status_active">
-          <a class="header__link hover-link" href="#">ru</a>
+        <li class="header__list-item">
+          <a class="header__link header__link_active hover-link" href="#">ru</a>
         </li>
         <li class="header__list-item">
           <a class="header__link hover-link" href="#">en</a>
@@ -46,7 +45,7 @@
           <figcaption class="lead__img-description">ваша полка — верхняя</figcaption>
         </figure>
       </section>
-      <section class="page__intro intro">
+      <section class="page__section intro">
         <div class="intro__text-block">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <blockquote class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
@@ -80,13 +79,13 @@
           </ul>
         </div>
       </section>
-      <section class="page__photo photo" aria-label="фото России">
-        <figure class="photo__grid">
+      <section class="page__section photo" aria-label="фото России">
+        <div class="photo__grid">
 
           <img class="photo__img" src="./images/img/photo-grid-train.jpg" alt="вид из окна поезда">
           <img class="photo__img" src="./images/img/photo-grid-atharva-tulsi.jpg" alt="вид на горы сверху">
           <img class="photo__img" src="./images/img/photo-grid-tuman.jpg" alt="туманное поле с стогами сена">
-          <img class="photo__img" src="./images/img/photo-grid-sochi.jpg" alt="вид на туманные лес сверху">
+          <img class="photo__img" src="./images/img/photo-grid-sochi.jpg" alt="вид на туманный лес сверху">
           <img class="photo__img" src="./images/img/photo-grid-arisa.jpg" alt="авто на льду байкала">
           <img class="photo__img" src="./images/img/photo-grid-baikal.jpg" alt="пляж">
           <img class="photo__img" src="./images/img/photo-grid-elbrus.jpg" alt="вид на горы с земли">
@@ -96,16 +95,16 @@
           <img class="photo__img" src="./images/img/photo-grid-baikal-2.jpg" alt="горы у берега">
           <img class="photo__img" src="./images/img/photo-grid-ergaki.jpg" alt="горы в тумане">
 
-        </figure>
+        </div>
       </section>
-      <section class="page__places places" aria-label="места которые стоит посетить">
-        <figure class="places__place place">
+      <section class="page__section places" aria-label="места которые стоит посетить">
+        <article class="places__place place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
             <a href="http://park-kosa.ru" target="_blank" class="place__link hover-link">park-kosa.ru</a>
           </div>
-          <img src="./images/img/place-kosa.jpg" alt="мелководье" class="place__img">
+          <img src="./images/img/place-kosa.jpg" alt="берег Куршской косы" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -115,9 +114,9 @@
               небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах
               стального, прохладного моря.</p>
           </div>
-        </figure>
+        </article>
 
-        <figure class="places__place place">
+        <article class="places__place place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
@@ -133,16 +132,16 @@
               Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
               накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
           </div>
-        </figure>
+        </article>
 
-        <figure class="places__place place">
+        <article class="places__place place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
             <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank"
               class="place__link hover-link">YouTube</a>
           </div>
-          <img src="./images/img/place-altai.jpg" alt="" class="place__img">
+          <img src="./images/img/place-altai.jpg" alt="ноутбук на перилах на фоне леса" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать
               вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле
@@ -151,16 +150,16 @@
               разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах
               пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </figure>
+        </article>
 
-        <figure class="places__place place">
+        <article class="places__place place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
             <a href="https://vk.com/baikalmile" target="_blank"
               class="place__link hover-link">https://vk.com/baikalmile</a>
           </div>
-          <img src="./images/img/place-winter-baikal.jpg" alt="" class="place__img">
+          <img src="./images/img/place-winter-baikal.jpg" alt="потрескавшийся лед Байкала" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый
               большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -169,15 +168,15 @@
               бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд —
               197.011 км/ч.</p>
           </div>
-        </figure>
+        </article>
 
-        <figure class="places__place place">
+        <article class="places__place place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__link-block">
             <p class="place__url-text">url</p>
             <a href="http://vodlozero.ru/" target="_blank" class="place__link hover-link">http://vodlozero.ru/</a>
           </div>
-          <img src="./images/img/place-karelia.jpg" alt="" class="place__img">
+          <img src="./images/img/place-karelia.jpg" alt="вид сквозь листву на реку идущую через лес" class="place__img">
           <div class="place__text-block">
             <p class="place__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
               не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков
@@ -186,7 +185,7 @@
               на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены
               медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </figure>
+        </article>
       </section>
       <section class="page__cover cover">
         <a class="cover__card card" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -196,7 +195,7 @@
         </a>
       </section>
     </main>
-    <footer class="page__footer footer">
+    <footer class="page__section footer">
       <nav class="footer__nav">
         <ul class="footer__list list">
           <li class="footer__list-item">

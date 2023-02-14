@@ -1,15 +1,15 @@
-.page__photo {
+.page__section {
   margin: 92px auto 0;
 }
 
 @media (max-width: 1023px) {
-  .page__photo {
+  .page__section {
     margin: 88px auto 0;
   }
 }
 
 @media (max-width: 767px) {
-  .page__photo {
+  .page__section {
     margin: 64px auto 0;
   }
 }

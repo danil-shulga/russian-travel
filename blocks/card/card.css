@@ -42,12 +42,12 @@
   left: 0;
   z-index: -1;
 
-  background-color: #000;
+  background-color: #2A2C2F;
   opacity: .3;
 
   transition: .1s ease-in;
 }
 
 .card:hover::after {
-  opacity: .7;
+  opacity: .8;
 }
